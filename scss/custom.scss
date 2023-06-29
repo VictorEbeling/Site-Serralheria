@@ -16,6 +16,11 @@
   width: 75%;
 }
 
+.navbar-brand{
+  margin: 0;
+  padding: 0;
+}
+
 .card-group{
   flex-direction: column;
   justify-content: space-around;
@@ -31,6 +36,10 @@
     max-width: 40%;
   }
 
+  .navbar-brand{
+    margin: 0;
+  }
+
   .card-group{
     flex-direction: row;
     justify-content: center;
@@ -42,8 +51,8 @@
 }
 
 $custom-theme-colors:(
-  "custom-yellow": #e6d512,
-  "custom-dark-yellow": #bbad0d
+  "custom-yellow": #ffea00,
+  "custom-dark-yellow": #d4c410
 );
 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
