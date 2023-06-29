@@ -5172,6 +5172,11 @@
   }
 }
 
+* {
+  font-family: "Martian Mono", monospace;
+  font-size: 0.9rem;
+}
+
 .carousel-inner {
   height: 35vh;
 }
@@ -5180,9 +5185,9 @@
   width: 75%;
 }
 
-.navbar-brand {
-  margin: 0;
-  padding: 0;
+#logo {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-group {
@@ -5195,11 +5200,12 @@
   .carousel-inner {
     height: 60vh;
   }
-  .card {
+  .card-group.card {
     max-width: 40%;
   }
-  .navbar-brand {
-    margin: 0;
+  #logo {
+    margin-left: 0;
+    margin-right: 0;
   }
   .card-group {
     flex-direction: row;
